@@ -1,0 +1,22 @@
+# Build output and local toolchains
+/build/
+/.tools/
+/.venv/
+
+# Python caches and local tooling
+__pycache__/
+*.py[cod]
+/.pytest_cache/
+/.mypy_cache/
+/.ruff_cache/
+/.coverage
+/htmlcov/
+
+# Editors and operating systems
+/.idea/
+/.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
