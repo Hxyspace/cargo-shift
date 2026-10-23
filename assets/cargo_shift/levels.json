@@ -1,0 +1,308 @@
+[
+  {
+    "name": "TURNING ROOM",
+    "map": [
+      "##########",
+      "#   #    #",
+      "# #   #  #",
+      "# #.# $  #",
+      "# * ##$# #",
+      "###      #",
+      "###@  # .#",
+      "##########"
+    ],
+    "par": 24,
+    "min_pushes": 11,
+    "origin": "Original compact puzzle; classic Sokoban design principles",
+    "theme": "Tight corners and changing the pushing side"
+  },
+  {
+    "name": "SHARED AISLE",
+    "map": [
+      "##########",
+      "####     #",
+      "#     ## #",
+      "# #.#    #",
+      "#$*   # ##",
+      "#+$ #    #",
+      "###   #  #",
+      "##########"
+    ],
+    "par": 29,
+    "min_pushes": 10,
+    "origin": "Original compact puzzle; classic Sokoban design principles",
+    "theme": "A common aisle must stay open"
+  },
+  {
+    "name": "DEEP DOCK",
+    "map": [
+      "##########",
+      "#    #   #",
+      "#        #",
+      "#  # #.  #",
+      "# ##   # #",
+      "#..$ #$$ #",
+      "#       @#",
+      "##########"
+    ],
+    "par": 37,
+    "min_pushes": 15,
+    "origin": "Original compact puzzle; classic Sokoban design principles",
+    "theme": "Fill deep targets without closing the access route"
+  },
+  {
+    "name": "SIDE POCKET",
+    "map": [
+      "##########",
+      "#        #",
+      "# $$#  #*#",
+      "#  @ .   #",
+      "#  ## # ##",
+      "#        #",
+      "#    #  .#",
+      "##########"
+    ],
+    "par": 39,
+    "min_pushes": 13,
+    "origin": "Original compact puzzle; classic Sokoban design principles",
+    "theme": "Use a side pocket to change crate order"
+  },
+  {
+    "name": "DOUBLE BACK",
+    "map": [
+      "##########",
+      "#   #    #",
+      "#   $ *  #",
+      "##$# ##  #",
+      "#    .@  #",
+      "# #  #   #",
+      "#  .     #",
+      "##########"
+    ],
+    "par": 48,
+    "min_pushes": 17,
+    "origin": "Original compact puzzle; classic Sokoban design principles",
+    "theme": "Crates must move away from nearby targets"
+  },
+  {
+    "name": "RIGHT OF WAY",
+    "map": [
+      "##########",
+      "######.  #",
+      "#   .#   #",
+      "#        #",
+      "#  ##  #$#",
+      "#   # $$+#",
+      "#      ###",
+      "##########"
+    ],
+    "par": 48,
+    "min_pushes": 19,
+    "origin": "Original compact puzzle; classic Sokoban design principles",
+    "theme": "Move the blocking crate before opening the next route"
+  },
+  {
+    "name": "BLOCK AND PASS",
+    "map": [
+      "########",
+      "#  @####",
+      "# #$$. #",
+      "# $.##.#",
+      "##$    #",
+      "#  #  $#",
+      "#.    .#",
+      "########"
+    ],
+    "par": 56,
+    "min_pushes": 22,
+    "origin": "Original compact puzzle; classic Sokoban design principles",
+    "theme": "Several crates share a compact turning area"
+  },
+  {
+    "name": "LOADING ORDER",
+    "map": [
+      "##########",
+      "#        #",
+      "#   #$ $$#",
+      "# #   ## #",
+      "#   #@# .#",
+      "#.    .$ #",
+      "# . #    #",
+      "##########"
+    ],
+    "par": 63,
+    "min_pushes": 23,
+    "origin": "Original compact puzzle; classic Sokoban design principles",
+    "theme": "Changing target order requires moving a docked crate"
+  },
+  {
+    "name": "BORROWED SPACE",
+    "map": [
+      "#########",
+      "#   #   #",
+      "# . .   #",
+      "## #  # #",
+      "# . #$$ #",
+      "# # $@# #",
+      "# .  $  #",
+      "#########"
+    ],
+    "par": 65,
+    "min_pushes": 23,
+    "origin": "Original compact puzzle; classic Sokoban design principles",
+    "theme": "Temporary storage must be recovered"
+  },
+  {
+    "name": "SWITCHBACK",
+    "map": [
+      "#########",
+      "# @ #   #",
+      "# .   $ #",
+      "# # *#.##",
+      "#   #   #",
+      "#.#$$ # #",
+      "#       #",
+      "#########"
+    ],
+    "par": 74,
+    "min_pushes": 26,
+    "origin": "Original compact puzzle; classic Sokoban design principles",
+    "theme": "Change pushing sides through connected narrow rooms"
+  },
+  {
+    "name": "INNER DEPOT",
+    "map": [
+      "##########",
+      "#   ######",
+      "# $ #    #",
+      "# $$@    #",
+      "# #  ## .#",
+      "#  $ #   #",
+      "### .  ..#",
+      "##########"
+    ],
+    "par": 83,
+    "min_pushes": 30,
+    "origin": "Original compact puzzle; classic Sokoban design principles",
+    "theme": "Deep goals and a restricted room entrance"
+  },
+  {
+    "name": "CROSS TRAFFIC",
+    "map": [
+      "########",
+      "#   . .#",
+      "#   #  #",
+      "#  $. ##",
+      "#$## $ #",
+      "#.  $# #",
+      "#### @ #",
+      "########"
+    ],
+    "par": 85,
+    "min_pushes": 26,
+    "origin": "Original compact puzzle; classic Sokoban design principles",
+    "theme": "Interleave crate movements rather than finishing one at a time"
+  },
+  {
+    "name": "SHORT LEASE",
+    "map": [
+      "#########",
+      "#   #   #",
+      "# .  $*.#",
+      "## #  #.#",
+      "#   #$  #",
+      "# # $ # #",
+      "#    .$@#",
+      "#########"
+    ],
+    "par": 92,
+    "min_pushes": 27,
+    "origin": "Original compact puzzle; classic Sokoban design principles",
+    "theme": "Docked crates occupy working space and must be moved again"
+  },
+  {
+    "name": "SIX WAY",
+    "map": [
+      "#########",
+      "#   #   #",
+      "#$  $. .#",
+      "# #  # ##",
+      "# * # . #",
+      "#@#$$ # #",
+      "#.$  .  #",
+      "#########"
+    ],
+    "par": 92,
+    "min_pushes": 34,
+    "origin": "Original compact puzzle; classic Sokoban design principles",
+    "theme": "Six crates share a limited circulation route"
+  },
+  {
+    "name": "NIGHT SHIFT",
+    "map": [
+      "##########",
+      "##   #   #",
+      "# $#   #.#",
+      "# @    # #",
+      "# # #.   #",
+      "# $$# #* #",
+      "###    . #",
+      "##########"
+    ],
+    "par": 103,
+    "min_pushes": 25,
+    "origin": "Original compact puzzle; classic Sokoban design principles",
+    "theme": "Long crate routes through alternating passages"
+  },
+  {
+    "name": "FALSE FINISH",
+    "map": [
+      "##########",
+      "#      ###",
+      "#.. #$$@.#",
+      "# .## $#$#",
+      "#        #",
+      "#    # * #",
+      "######   #",
+      "##########"
+    ],
+    "par": 109,
+    "min_pushes": 31,
+    "origin": "Original compact puzzle; classic Sokoban design principles",
+    "theme": "A near-finished room still needs substantial rearrangement"
+  },
+  {
+    "name": "LAST DELIVERY",
+    "map": [
+      "##########",
+      "##@* #   #",
+      "# $# $$# #",
+      "#      #.#",
+      "# # #   .#",
+      "# $ #.#  #",
+      "###   .  #",
+      "##########"
+    ],
+    "par": 116,
+    "min_pushes": 25,
+    "origin": "Original compact puzzle; classic Sokoban design principles",
+    "theme": "Several deliveries compete for the same staging space"
+  },
+  {
+    "name": "OVERTIME",
+    "map": [
+      "#########",
+      "#   #   #",
+      "#.  *   #",
+      "# #  # ##",
+      "#.$ # . #",
+      "#$#$$.# #",
+      "#@$.    #",
+      "#########"
+    ],
+    "par": 118,
+    "min_pushes": 38,
+    "origin": "Original compact puzzle; classic Sokoban design principles",
+    "theme": "Six-crate endgame with repeated temporary docking"
+  }
+]
